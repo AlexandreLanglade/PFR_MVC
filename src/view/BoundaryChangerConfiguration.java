@@ -24,9 +24,11 @@ public class BoundaryChangerConfiguration {
             System.out.println("4 Nombre Echantillons Audio");
             System.out.println("5 Nombre Intervalles Audio");
             int choix = Clavier.entrerClavierInt();
-            System.out.println("Nouvelle valeur : ");
-            int valeur = Clavier.entrerClavierInt();
-            controlChangerConfiguration.changerConfiguration(choix, valeur);
+            if (choix >= 1 && choix <= 5) {
+                System.out.println("Nouvelle valeur : ");
+                int valeur = Clavier.entrerClavierInt();
+                controlChangerConfiguration.changerConfiguration(choix, valeur);
+            }
         }
     }
 }

@@ -26,10 +26,12 @@ public class ControlLancerRecherche {
             case IMAGE:
                 recherche.addResultat("/corpus/Images/LapinNoir.png");
                 recherche.addResultat("/corpus/Images/LapinGris.png");
+                break;
 
             case AUDIO:
                 recherche.addResultat("/corpus/Sons/Mozart_Sonate_G_Minor");
                 recherche.addResultat("/corpus/Sons/Patrick_Bruel_4_Saisons");
+                break;
 
             default:
                 break;

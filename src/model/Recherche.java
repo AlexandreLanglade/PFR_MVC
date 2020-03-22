@@ -31,7 +31,7 @@ public class Recherche {
 
     @Override
     public String toString() {
-        String res = "Type : " + typeRecherche + ", requete : " + requete + "\n";
+        String res = "Type : " + typeRecherche + ", requete : " + requete + "\n  Résultats :";
         for (String resultat : resultats) {
             res = res + "\n     " + resultat;
         }

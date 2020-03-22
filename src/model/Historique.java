@@ -35,9 +35,9 @@ public class Historique {
 
     @Override
     public String toString() {
-        String res = "Historique\n";
+        String res = "Historique";
         for (Recherche recherche : historique) {
-            res += recherche;
+            res = res + "\n" + recherche;
         }
         return res;
     }
